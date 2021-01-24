@@ -12,3 +12,9 @@ const button = document.querySelector("button[name='play']")
 const button2 = document.querySelector("button[name='mute']")
 button.onclick = () => player.togglePlay();
 button2.onclick = () => player.toggleMute();
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js').catch(error => {
+    console.log(error.message);
+  });
+}
