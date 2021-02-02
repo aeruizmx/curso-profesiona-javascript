@@ -1,0 +1,37 @@
+PATRONES DE DISEÑO
+Una solucion para un problema de un contexto
+- El conexto es la situacion donde el patron aplica
+- Esta situacion debe ser recurrente
+- Ejemplo: muchos objetos estan interesados en el estado de un objeto
+- Se refiere a la meta que estas tratando de alcanzar dentro del contexto
+- El problema incluye todas las limitaciones que existen dentro de este conexto
+- Ejemplo: Estos objetos quieren recibir notificaciones cuando cambie el estado,
+  sin tener que solicitar información.
+- Un diseño generico que alcanza la meta dentro del contexto
+- Ejemplo: crear una clase donde cualquier objeto se puede suscribir y desuscribir a cambios en el estado 
+  Observer Pattern
+
+Every Layout - Describe diferentes soluciones de como acomodad los elementos en una pagins
+Media Queires- como acomodar la informacion en diferentes tamaños de pantalla
+
+Historia
+-Christopher Alexander
+Sus libros describen patrones para construis arquitectura dinamica, como casas, pueblos y ciudades
+
+Design Patterns
+Libro que comenzó todo en el desarrollo de software, en 1995
+
+Beneficios
+Son una caja de soluciones bien probadas a problemas comunes en diseño de software
+Te proveen un lenguaje comuna que  permite comunicarse de forma especifica y eficiente
+
+Critica
+Son una forma de complejidad
+Son soluciones a las limitacions de un lenguaje de programacion
+"Cuando lo que tienes es un martillo, todo te parece un clavo" 
+Evitarlos hasta que son necesarios - Jeff Atwood
+
+Conclusion
+Simepre busca pensar en terminos de diseño, no de patrones
+Usa un patron cuando hay una necesidad natural para usarlo
+Si existe una alternativa mas simple, prefierela
