@@ -1,0 +1,33 @@
+Categorias de patrones de diseño
+
+Creacionales
+Te proveen diferentes formas de crear objetos
+ - Abstract Factory
+ - Builder . Usado para permitir crear una variedad de objetos complejos desde un objeto fuente
+ - Factory method
+ - Prototype
+ - Singleton
+
+Estructurales
+Describen formas de componer objetos para obtener nuevas estructuras flexibles y eficientes
+- Adapter
+- Bridge
+- Composite
+- Decorator
+- Facade
+- Flyweight
+- Proxy
+
+De comportamiento
+Gestiona algoritmos y responsinabilidades entre objetos
+Chain of Responsibility
+Command
+Interpreter
+Iterator
+Mediator
+Memento
+Observer
+State
+Strategy
+Template Method
+Visitor
