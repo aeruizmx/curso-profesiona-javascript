@@ -20,14 +20,14 @@ Describen formas de componer objetos para obtener nuevas estructuras flexibles y
 
 De comportamiento
 Gestiona algoritmos y responsinabilidades entre objetos
-Chain of Responsibility
-Command
-Interpreter
-Iterator
-Mediator
-Memento
-Observer
-State
-Strategy
-Template Method
-Visitor
+-Chain of Responsibility
+-Command
+-Interpreter
+-Iterator
+-Mediator
+-Memento
+-Observer
+-State
+-Strategy
+-Template Method
+-Visitor

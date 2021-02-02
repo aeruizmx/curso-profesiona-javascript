@@ -1,0 +1,3 @@
+Patron Singleton (Creacional) y Casos de uso
+Es un patron que te asegura que una clase solo tiene una instancia
+Esta unica instancia puede ser consumida por cualquier otro objeto
